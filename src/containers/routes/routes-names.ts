@@ -1,0 +1,32 @@
+export const urlPrefix = '/';
+
+export const routes = {
+    main: `${urlPrefix}`,
+    about: `${urlPrefix}about-us`,
+    contact: `${urlPrefix}contact-us`,
+    linkedin: `${urlPrefix}linkedin`,
+    pendingOffers: `${urlPrefix}offers/pending`,
+    acceptedOffers: `${urlPrefix}offers/accepted`,
+    onboardedOffers: `${urlPrefix}offers/onboarded`,
+    ghostedOffers: `${urlPrefix}offers/ghosted`,
+    declinedOffers: `${urlPrefix}offers/declined`,
+    retractedOffers: `${urlPrefix}offers/retracted`,
+    rejectedOffers: `${urlPrefix}offers/rejected`,
+    expiredOffers: `${urlPrefix}offers/expired`,
+    candidates: `${urlPrefix}candidates`,
+    candidate: `${urlPrefix}candidate/:id`,
+    company: `${urlPrefix}company/:id`,
+    companies: `${urlPrefix}companies`,
+    invitations: `${urlPrefix}invitations`,
+    myCompany: `${urlPrefix}my-company`,
+    myProfile: `${urlPrefix}my-profile`,
+    releaseOffer: `${urlPrefix}release-offer`,
+    employees: `${urlPrefix}employees`,
+    document: `${urlPrefix}document/:id`,
+    legal: `${urlPrefix}legal`,
+    terms: `${urlPrefix}legal/terms`,
+    privacy: `${urlPrefix}legal/privacy`,
+    faq: `${urlPrefix}legal/faq`,
+    dashboard: `${urlPrefix}dashboard`,
+    offers: `${urlPrefix}offers`
+};

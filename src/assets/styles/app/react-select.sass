@@ -1,0 +1,210 @@
+.offer-select
+  display: flex
+  width: 100%
+
+  &--header
+    .react-select
+      &__control
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+        border-right: 1
+        background-color: #F9F9F9
+        max-width: 43.5em
+
+      &__dropdown-indicator, &__clear-indicator
+        display: none
+
+      &__menu
+        width: 100%
+
+  &--page
+    .react-select
+      &__control
+        background:
+          repeat: no-repeat
+          position: right 12px center
+          image: url("../../icons/search.svg")
+
+  &__input
+    flex: auto
+
+  &__btn
+    .btn
+      width: 72px
+      border-top-left-radius: 0
+      border-bottom-left-radius: 0
+
+  .react-select
+    &__control
+      min-height: 2.5em
+      min-width: 16.5em
+      border-color: #d2d2d2
+      box-shadow: none !important
+      padding-right: 30px;
+      padding-left: 5px;
+
+    &__indicator
+      padding: 5px 8px
+
+    &__indicator-separator
+      display: none
+
+    &__input-container
+      padding-top: 0
+      padding-bottom: 0
+
+    &__menu
+      overflow: hidden
+      box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+
+      &-notice
+        display: none
+
+      &-list
+        max-height: none
+        padding: 0
+
+    &__option
+      padding: 10px
+      cursor: pointer
+
+      &:not(:last-child)
+        border-bottom: 1px solid #ECECEC
+
+      &:hover, &--is-focused
+        color: #000
+        background-color: #eaf6ff
+
+
+.react-select-recent
+  padding: 16px 16px 0
+
+  &__list
+    display: flex
+    margin-top: 16px
+
+    &-item
+      display: flex
+      justify-content: center
+      width: 20%
+      cursor: pointer
+      text-align: center
+
+  @at-root .hide-recent-items &
+    display: none
+
+
+.react-select-recent-item
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  &__avatar
+    flex: none
+    width: 40px
+    height: 40px
+    margin-bottom: 16px
+    border-radius: 50%
+    background:
+      position: center
+      size: cover
+      repeat: no-repeat
+      image: url("../../../assets/img/avatars.svg")
+
+    &--company
+      background-image: url("../../../assets/img/logo.svg")
+
+  &__name
+    font-weight: bold
+
+
+.react-select-no-results
+  padding: 16px 16px 0
+  text-align: center
+
+
+.react-select-option-item
+  display: flex
+  align-items: center
+
+  &__avatar
+    flex: none
+    width: 40px
+    height: 40px
+    margin-right: 16px
+    border-radius: 50%
+    background:
+      position: center
+      size: cover
+      repeat: no-repeat
+      image: url("../../../assets/img/avatars.svg")
+
+    &--company
+      background-image: url("../../../assets/img/logo.svg")
+
+  &__body
+    display: flex
+    align-items: center
+    flex: auto
+
+    &-inner
+      max-width: 300px
+      flex: auto
+
+      @media (min-width: 1200px)
+        &
+          max-width: 448px
+
+      &--ellipsis
+        max-width: 180px
+
+        @media (min-width: 1200px)
+          &
+            max-width: 330px
+
+    &-offers
+      flex: none
+      margin-left: auto
+
+  &__name
+    white-space: nowrap
+    font-weight: bold
+
+  &__details
+    white-space: nowrap
+    font-size: 0.9em
+
+    &--ellipsis
+      overflow: hidden
+      text-overflow: ellipsis
+
+
+
+.react-select-menu-btn
+  padding: 0 16px 16px
+
+  .btn
+    display: block
+
+
+.page-select
+  .react-select
+    &__control
+      min-height: 32px
+      border-color: #d2d2d2
+      box-shadow: none !important
+      padding: 0 0.75rem;
+      font-size: var(--fs-14);
+
+    &__indicator
+      padding: 5px 8px
+
+    &__indicator-separator
+      display: none
+
+    &__input-container
+      padding-top: 0
+      padding-bottom: 0
+
+    &__menu
+      z-index: 3

@@ -1,0 +1,65 @@
+.custom-input {
+    padding: 6px 15px 6px 35px;
+}
+
+.filter-select {
+    padding: 6px 0px 6px 15px;
+}
+
+.filter-select .p-dropdown-label.p-placeholder {
+    padding: 0 !important;
+}
+
+.filter-select .p-inputtext {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 1px !important;
+}
+
+.filter-select .p-dropdown-trigger {
+    width: 1.5rem;
+}
+
+.filter-select .p-dropdown-clear-icon {
+    right: 1.5rem;
+}
+
+.filter-select .p-dropdown-label {
+    padding: 0;
+}
+
+.filter-input {
+    padding: 6px 15px;
+}
+
+.columnActionTemplate {
+    min-width: 6rem;
+}
+
+.actionIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.disableActionIcon {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.columnBadge {
+    border-radius: 35px;
+    padding: 0.15rem 0.75rem;
+}
+
+.columnBadgeGreen {
+    background: #c8e6c9;
+}
+
+.columnBadgeRed {
+    background: #ffcdd2;
+}
+
+.gridColumn{
+    width: 150px;
+}

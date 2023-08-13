@@ -1,0 +1,82 @@
+.offer-table-container
+  position: relative
+  overflow: hidden
+
+.offer-table-scroll
+  position: relative
+  overflow: auto
+
+
+.offer-table-controls
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 16px 0
+
+  &__pagination
+    display: flex
+
+
+.offer-table
+  min-width: 100%
+  border-collapse: collapse
+  table-layout: fixed
+
+  tbody
+    border-top: none !important
+
+
+.offer-table-th
+  height: 60px
+  font-weight: 600
+
+.absolute-link
+  content: ''
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1
+
+
+.absolute-area-link
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 88px
+    bottom: 0
+    left: 0
+
+  &--candidate
+    &::before
+      right: 56px
+
+.table-btn-disabled
+  pointer-events: none
+  cursor: not-allowed
+  opacity: 0.5
+
+
+.table-review-btn-disabled
+  cursor: not-allowed
+  opacity: 0.5
+
+
+.offer-table-link
+  position: relative
+  z-index: 1
+
+
+.offer-table-reoffered
+  position: relative
+  display: inline-block
+  vertical-align: middle
+
+  &__icon
+    position: absolute
+    z-index: 1
+    right: -9px
+    bottom: -8px
+    cursor: pointer

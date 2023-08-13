@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+:root {
+    /* Text Solid Color */
+    --lt-text-white-color: #ffffff;
+    --lt-text-primary: #323130;
+    --lt-text-secondary: #605e5c;
+    --lt-text-disabled: #a19f9d;
+    --lt-text-error: #d83b01;
+    --lt-text-warning: #ae8701;
+    --lt-text-success: #107c10;
+    --lt-text-success-alt: #2bc04c;
+    --lt-text-primary-alt: #0096ff;
+    --lt-text-link-primary: #323130;
+    --lt-text-disabled: #d2d2d2;
+    /* Background Solid Color */
+    --lt-bg-disabled: #d2d2d2;
+    --lt-bg-primary: #0096ff;
+    --lt-bg-dark-alt: #2c4cde;
+    --lt-bg-dark: #213cb8;
+    --lt-bg-darker: #001889;
+    --lt-bg-secondary: #509dc6;
+    --lt-bg-light: #c7e9f4;
+    --lt-bg-lighter: #def3f9;
+    --lt-bg-lighter-alt: #effafc;
+    --lt-bg-white: #ffffff;
+    --lt-bg-gray-10: #f9f9f9;
+    --lt-bg-gray-150: #373737;
+    --lt-bg-success: #2bc04c;
+    --lt-bg-light-blue: #8cdbea;
+    --no-bgc: transparent;
+    /* Snack Light Background Color */
+    --lt-snack-bg-error: #fed9cc;
+    --lt-snack-bg-warning: #ae8701;
+    --lt-snack-bg-success: #dff6dd;
+    --lt-snack-bg-success-fill: #2bc04c;
+    /* Alert Solid Background Color */
+    --lt-alert-bg-error: #d83b01;
+    --lt-alert-bg-warning: #ae8701;
+    --lt-alert-bg-success: #107c10;
+    --lt-alert-bg-warning-fill: #f0c916;
+    /* Border Solid Color */
+    --divider-default: #ececec;
+    --border-default: #d2d2d2;
+    --input-border-default: #d2d2d2;
+    --input-border-error: #d83b01;
+    --input-border-warning: #ae8701;
+    --input-border-success: #107c10;
+    --input-border-primary: #f0c916;
+    --input-border-primary-alt: #0096ff;
+    /* Box Shadow */
+    --lt-shadow-xs: 0px 0.3px 0.9px rgba(0, 0, 0, 0.1), 0px 1.6px 3.6px rgba(0, 0, 0, 0.13);
+    --lt-shadow-sm: 0px 0.6px 1.8px rgba(0, 0, 0, 0.1), 0px 3.2px 7.2px rgba(0, 0, 0, 0.13);
+    --lt-shadow-md: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+    --lt-shadow-lg: 0px 4px 29px rgba(0, 0, 0, 0.1), 0px 3px 17px rgba(0, 0, 0, 0.13);
+    --lt-shadow-xl: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
+    /* Buttons Colors */
+    --lt-btn-primary: #0096ff;
+    --lt-btn-outline-primary: #0096ff;
+    --lt-btn-disable: #a19f9d;
+    --lt-btn-outline-secondary: #d2d2d2;
+    --lt-btn-img-primary: #0096ff;
+    --lt-btn-img-outline-secondary: #d2d2d2;
+    /* Status Background Colors */
+    --lt-status-default: #def3f9;
+    --lt-status-primary: #c7e9f4;
+    --lt-status-warning: #fff4ce;
+    --lt-status-success: #dff6dd;
+    --lt-status-error: #fed9cc;
+    /* Status Text Colors */
+    --lt-status-text-default: #323130;
+    --lt-status-text-primary: #0096ff;
+    --lt-status-text-warning: #ae8701;
+    --lt-status-text-success: #107c10;
+    --lt-status-text-error: #d83b01;
+}

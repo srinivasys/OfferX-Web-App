@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+:root {
+    /* Buttons Size */
+    --lt-btn-sm: 1.5em;
+    --lt-btn-reg: 2em;
+    --lt-btn-lg: 3em;
+    /* Links */
+    --lt-btn-link: underline;
+    /* Borders Radius */
+    --pill: 50px;
+    --circle: 50%;
+    --rounded: 5px;
+    --no-radius: 0;
+    /* Box Shadow */
+    --no-shadow: none;
+    /* HEIGHTS */
+    --btn-sm: 24px;
+    --btn-md: 32px;
+    /* CARD PADDING */
+    --card-padding: 24px;
+    /* PROFILE PAGE */
+    --profile-img-height: 10.5em;
+    --profile-details-height: 8em;
+    /* Tab Page Minimum Height */
+    --tab-min-height: 480px;
+    /* Review Textarea Height */
+    --review-textarea: 216px;
+}

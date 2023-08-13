@@ -1,0 +1,23 @@
+body {
+    font-family: var(--pop-font-family) !important;
+}
+header.landing-page {
+    background-color: var(--lt-bg-white);
+    padding: 5px 0;
+    box-shadow: 0 0 3px #cccccc;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header.landing-page .site-logo{
+    height: 1.25em;
+}
+footer {
+    background-color: var(--lt-bg-white);
+    padding: 4em 0;
+}
+@media (min-width: 1366px) and (max-width: 1366px) {
+    header.landing-page .site-logo{
+        height: 1.15em;
+    }
+}
